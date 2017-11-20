@@ -1,0 +1,246 @@
+{
+  "players": {
+    "1": {
+      "id": "1",
+      "name": "Kristina",
+      "gender": "F"
+    },
+    "2": {
+      "id": "2",
+      "name": "Brian",
+      "gender": "M"
+    },
+    "3": {
+      "id": "3",
+      "name": "Steve T",
+      "gender": "M"
+    },
+    "4": {
+      "id": "4",
+      "name": "Johnny",
+      "gender": "M"
+    }
+  },
+  "opponents": {
+    "1": {
+      "id": "1",
+      "name": "Touchzillaz"
+    },
+    "2": {
+      "id": "2",
+      "name": "untouchables"
+    },
+    "3": {
+      "id": "3",
+      "name": "We have the Quay"
+    }
+  },
+  "seasonsSummaries": {
+    "1": {
+      "id": 1,
+      "name": "Spring 2016",
+      "type": {
+        "id": 1,
+        "name": "touch"
+      },
+      "startDate": "2016-04-28T19:00:00+00:00",
+      "players": {
+        "1": {
+          "id": "1",
+          "name": "Kristina",
+          "gender": "F",
+          "apperances": 0,
+          "tries": 0,
+          "PotMs": 0,
+          "penalties": 0,
+          "injuries": 0,
+          "PotS": false,
+          "avgTriesScore": 0,
+          "PotSScores": 0,
+          "SeasonRank": null
+        },
+        "2": {
+          "id": "2",
+          "name": "Brian",
+          "gender": "M",
+          "apperances": 0,
+          "tries": 0,
+          "PotMs": 0,
+          "penalties": 0,
+          "injuries": 0,
+          "PotS": false,
+          "avgTriesScore": 0,
+          "PotSScores": 0,
+          "SeasonRank": null
+        },
+        "3": {
+          "id": "1",
+          "name": "Steve T",
+          "gender": "M",
+          "apperances": 0,
+          "tries": 0,
+          "PotMs": 0,
+          "penalties": 0,
+          "injuries": 0,
+          "PotS": false,
+          "avgTriesScore": 0,
+          "PotSScores": 0,
+          "SeasonRank": null
+        }
+      },
+      "gamesPlayed": 0,
+      "gameIds": []
+    }
+  },
+  "gamesSummaries": {
+    "1": {
+      "id": "1",
+      "seasonId": "1",
+      "season": {
+        "id": "1",
+        "name": "Spring 2016",
+        "type": {
+          "id": 1,
+          "name": "touch"
+        },
+        "startDate": "2016-04-28T19:00:00+00:00"
+      },
+      "gameDate": "2016-04-28T19:00:00+00:00",
+      "opponent": {
+        "id": 1,
+        "name": "Touchzillaz"
+      },
+      "players": {
+        "1": {
+          "id": "1",
+          "name": "Kristina",
+          "gender": "F",
+          "played": true,
+          "tries": 0,
+          "penalties": 0,
+          "injured": false,
+          "PotM": false
+        },
+        "2": {
+          "id": "2",
+          "name": "Brian",
+          "gender": "M",
+          "played": true,
+          "tries": 1,
+          "penalties": 0,
+          "injured": false,
+          "PotM": false
+        },
+        "3": {
+          "id": "3",
+          "name": "Steve T",
+          "gender": "M",
+          "played": true,
+          "tries": 2,
+          "penalties": 0,
+          "injured": false,
+          "PotM": true
+        }
+      }
+    },
+    "2": {
+      "id": "2",
+      "seasonId": "1",
+      "season": {
+        "id": "1",
+        "name": "Spring 2016",
+        "type": {
+          "id": 1,
+          "name": "touch"
+        },
+        "startDate": "2016-04-28T19:00:00+00:00"
+      },
+      "gameDate": "2016-05-04T19:20:00+00:00",
+      "opponent": {
+        "id": 2,
+        "name": "untouchables"
+      },
+      "players": {
+        "1": {
+          "id": "1",
+          "name": "Kristina",
+          "gender": "F",
+          "tries": 0,
+          "penalties": 0,
+          "injured": false,
+          "PotM": false
+        },
+        "2": {
+          "id": "2",
+          "name": "Brian",
+          "gender": "M",
+          "played": true,
+          "tries": 0,
+          "penalties": 0,
+          "injured": false,
+          "PotM": false
+        },
+        "3": {
+          "id": "3",
+          "name": "Steve T",
+          "gender": "M",
+          "played": true,
+          "tries": 0,
+          "penalties": 0,
+          "injured": false,
+          "PotM": true
+        }
+      }
+    },
+    "3": {
+      "id": "3",
+      "seasonId": "1",
+      "season": {
+        "id": "1",
+        "name": "Spring 2016",
+        "type": {
+          "id": 1,
+          "name": "touch"
+        },
+        "startDate": "2016-04-28T19:00:00+00:00"
+      },
+      "gameDate": "2016-05-11T20:00:00+00:00",
+      "opponent": {
+        "id": "3",
+        "name": "We have the Quay"
+      },
+      "players": {
+        "1": {
+          "id": "1",
+          "name": "Kristina",
+          "gender": "F",
+          "played": true,
+          "tries": 3,
+          "penalties": 0,
+          "injured": false,
+          "PotM": false
+        },
+        "2": {
+          "id": "2",
+          "name": "Brian",
+          "gender": "M",
+          "played": true,
+          "tries": 4,
+          "penalties": 0,
+          "injured": false,
+          "PotM": true
+        },
+        "3": {
+          "id": "3",
+          "name": "Steve T",
+          "gender": "M",
+          "played": false,
+          "tries": 0,
+          "penalties": 0,
+          "injured": true,
+          "PotM": false
+        }
+      }
+    }
+  }
+}
