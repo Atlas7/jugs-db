@@ -1,42 +1,42 @@
 {
-  "players": [
-    {
+  "players": {
+    "n": {
       "id": "1",
       "name": "Kristina",
       "gender": "F"
     },
-    {
+    "2": {
       "id": "2",
       "name": "Brian",
       "gender": "M"
     },
-    {
+    "3": {
       "id": "3",
       "name": "Steve T",
       "gender": "M"
     },
-    {
+    "4": {
       "id": "4",
       "name": "Johnny",
       "gender": "M"
     }
-  ],
-  "opponents": [
-    {
+  },
+  "opponents": {
+    "1": {
       "id": "1",
       "name": "Touchzillaz"
     },
-    {
+    "2": {
       "id": "2",
       "name": "untouchables"
     },
-    {
+    "3": {
       "id": "3",
       "name": "We have the Quay"
     }
-  ],
-  "seasonsSummaries": [
-    {
+  },
+  "seasonsSummaries": {
+    "1": {
       "id": 1,
       "name": "Spring 2016",
       "type": {
@@ -44,8 +44,8 @@
         "name": "touch"
       },
       "startDate": "2016-04-28T19:00:00+00:00",
-      "players": [
-        {
+      "players": {
+        "1": {
           "id": "1",
           "name": "Kristina",
           "gender": "F",
@@ -59,7 +59,7 @@
           "PotSScores": 0,
           "SeasonRank": null
         },
-        {
+        "2": {
           "id": "2",
           "name": "Brian",
           "gender": "M",
@@ -73,7 +73,7 @@
           "PotSScores": 0,
           "SeasonRank": null
         },
-        {
+        "3": {
           "id": "1",
           "name": "Steve T",
           "gender": "M",
@@ -87,13 +87,13 @@
           "PotSScores": 0,
           "SeasonRank": null
         }
-      ],
+      },
       "gamesPlayed": 0,
       "gameIds": []
     }
-  ],
-  "gamesSummaries": [
-    {
+  },
+  "gamesSummaries": {
+    "1": {
       "id": "1",
       "seasonId": "1",
       "season": {
@@ -110,8 +110,8 @@
         "id": 1,
         "name": "Touchzillaz"
       },
-      "players": [
-        {
+      "players": {
+        "1": {
           "id": "1",
           "name": "Kristina",
           "gender": "F",
@@ -121,7 +121,7 @@
           "injured": false,
           "PotM": false
         },
-        {
+        "2": {
           "id": "2",
           "name": "Brian",
           "gender": "M",
@@ -131,7 +131,7 @@
           "injured": false,
           "PotM": false
         },
-        {
+        "3": {
           "id": "3",
           "name": "Steve T",
           "gender": "M",
@@ -141,9 +141,9 @@
           "injured": false,
           "PotM": true
         }
-      ]
+      }
     },
-    {
+    "2": {
       "id": "2",
       "seasonId": "1",
       "season": {
@@ -160,8 +160,8 @@
         "id": 2,
         "name": "untouchables"
       },
-      "players": [
-        {
+      "players": {
+        "1": {
           "id": "1",
           "name": "Kristina",
           "gender": "F",
@@ -170,7 +170,7 @@
           "injured": false,
           "PotM": false
         },
-        {
+        "2": {
           "id": "2",
           "name": "Brian",
           "gender": "M",
@@ -180,7 +180,7 @@
           "injured": false,
           "PotM": false
         },
-        {
+        "3": {
           "id": "3",
           "name": "Steve T",
           "gender": "M",
@@ -190,9 +190,9 @@
           "injured": false,
           "PotM": true
         }
-      ]
+      }
     },
-    {
+    "3": {
       "id": "3",
       "seasonId": "1",
       "season": {
@@ -209,8 +209,8 @@
         "id": "3",
         "name": "We have the Quay"
       },
-      "players": [
-        {
+      "players": {
+        "1": {
           "id": "1",
           "name": "Kristina",
           "gender": "F",
@@ -220,7 +220,7 @@
           "injured": false,
           "PotM": false
         },
-        {
+        "2": {
           "id": "2",
           "name": "Brian",
           "gender": "M",
@@ -230,7 +230,7 @@
           "injured": false,
           "PotM": true
         },
-        {
+        "3": {
           "id": "3",
           "name": "Steve T",
           "gender": "M",
@@ -240,7 +240,7 @@
           "injured": true,
           "PotM": false
         }
-      ]
+      }
     }
-  ]
+  }
 }

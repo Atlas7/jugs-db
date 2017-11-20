@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start-api": "json-server --watch db.json",
+    "start-api-mongo": "json-server --watch db-mongo.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
